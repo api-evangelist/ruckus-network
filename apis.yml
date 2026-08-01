@@ -1,4 +1,16 @@
 aid: ruckus-network
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ruckus-network.png
 name: Ruckus Network
 description: Ruckus Network is a company surfaced as a portfolio company of battery-ventures and added
   to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
@@ -12,10 +24,23 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+x-api-surface: none
+x-api-surface-note: Enrichment pass 2026-07-21 probed candidate domains (ruckus.io,
+  ruckuswifi.com, getruckus.com, goruckus.com, joinruckus.com, ruckusnetwork.com,
+  ruckus.net). No live company website or developer/API surface tied to the Battery
+  Ventures "Ruckus Network" portfolio entry was found; getruckus/goruckus are parked/for-sale,
+  ruckus.io is a domain lander, joinruckus.com is an unrelated family-memory app. Battery
+  portfolio marks this entry is_api_provider=false with no URL. No artifacts searched,
+  generated, or derived.
 tags:
 - Company
 apis: []
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
